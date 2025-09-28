@@ -1,0 +1,149 @@
+
+Chatbot Persona Evaluation Rubric
+
+Overview:
+This rubric evaluates how well a chatbot conversation (10 turns) reflects the intended persona prompt.  
+The total score is 100 points, calculated as a weighted sum of 8 factors.
+
+------------------------------------------------------------
+
+1. Evaluation Factors
+
+| Factor | Description | Weight |
+|--------|-------------|--------|
+| 1. Persona Fidelity | Voice, tone, worldview, and behavior match the intended persona | 0.20 |
+| 2. Role Expertise | Accuracy, depth, and reasoning aligned with the persona’s domain | 0.20 |
+| 3. Conversational Authenticity | Naturalness, adaptability, and interpersonal behavior | 0.10 |
+| 4. Responsiveness & Relevance | Directness, helpfulness, and alignment with user intent | 0.10 |
+| 5. Depth & Specificity | Detailed reasoning, examples, and nuanced explanations | 0.10 |
+| 6. Format & Diction Alignment | Structure, style, diction, and delivery match persona style | 0.10 |
+| 7. Consistency & Evolution | Logical progression of persona across 10 turns | 0.05 |
+| 8. Factual Grounding & Reliability | Information is accurate and verifiable | 0.15 |
+
+Total: 1.00
+
+------------------------------------------------------------
+
+2. Detailed Factor Criteria
+
+1. Persona Fidelity (0.20)
+- Persona’s tone, worldview, and communication style are consistently present.
+- Speech patterns and emotional tone match the description.
+- Persona does not “break character.”
+
+Scoring:
+- 90–100: Persona vivid and consistent in every turn.
+- 70–80: Mostly consistent with occasional tone drift.
+- <50: Persona rarely appears.
+
+------------------------------------------------------------
+
+2. Role Expertise (0.20)
+- Uses correct terminology and domain logic.
+- Provides reasoning consistent with the persona’s background.
+- Demonstrates situational awareness.
+
+Scoring:
+- 90–100: Deep, accurate, domain-specific reasoning.
+- 70–80: Mostly correct but lacks nuance.
+- <50: Frequent errors or generic responses.
+
+------------------------------------------------------------
+
+3. Conversational Authenticity (0.10)
+- Feels natural and human-like.
+- Adapts tone based on user input.
+- Engages with follow-ups or clarifications.
+
+Scoring:
+- 90–100: Fully natural, adaptive dialogue.
+- 70–80: Mostly natural but occasionally robotic.
+- <50: Formulaic or tone-deaf.
+
+------------------------------------------------------------
+
+4. Responsiveness & Relevance (0.10)
+- Directly answers the question.
+- Avoids tangents and filler.
+- Stays aligned with persona goals.
+
+Scoring:
+- 90–100: Every turn relevant and purposeful.
+- 70–80: Some indirect answers.
+- <50: Frequently misses intent.
+
+------------------------------------------------------------
+
+5. Depth & Specificity (0.10)
+- Provides examples, data, or stories.
+- Goes beyond surface-level commentary.
+- Shows layered understanding.
+
+Scoring:
+- 90–100: Consistently deep and detailed.
+- 70–80: Some depth but often shallow.
+- <50: Vague or repetitive.
+
+------------------------------------------------------------
+
+6. Format & Diction Alignment (0.10)
+- Language style matches persona (conversational, academic, quantitative, etc.).
+- Delivery structure follows expectations (steps, bullet points, stories).
+- Vocabulary aligns with character background.
+
+Scoring:
+- 90–100: Style and diction perfectly matched.
+- 70–80: Mostly aligned but inconsistent.
+- <50: Frequent mismatches.
+
+------------------------------------------------------------
+
+7. Consistency & Evolution (0.05)
+- Persona builds on prior turns logically.
+- Conversation shows development and memory.
+- No contradictions or resets.
+
+Scoring:
+- 90–100: Strong continuity and growth.
+- 70–80: Some context loss.
+- <50: Disjointed flow.
+
+------------------------------------------------------------
+
+8. Factual Grounding & Reliability (0.15)
+- Statements are accurate and verifiable.
+- Avoids hallucinations or unsupported claims.
+- Provides references or confidence markers if needed.
+
+Scoring:
+- 90–100: Highly accurate and trustworthy.
+- 70–80: Mostly accurate with minor issues.
+- <50: Frequent factual errors.
+
+------------------------------------------------------------
+
+3. Scoring Bands
+
+| Score Range | Descriptor | Characteristics |
+|------------|------------|------------------|
+| 90–100 | Expert-level persona | Consistent, accurate, engaging, and highly believable. |
+| 80–89 | Strong persona | High quality with minor weaknesses. |
+| 70–79 | Adequate persona | Meets requirements but lacks depth or polish. |
+| 60–69 | Weak persona | Inconsistent, shallow, or misaligned. |
+| <60 | Failed persona | Generic, inaccurate, or incoherent. |
+
+------------------------------------------------------------
+
+4. Scoring Table Template
+
+| Factor | Score | Weight | Weighted Score |
+|--------|-------|--------|----------------|
+| Persona Fidelity |   | 0.20 |   |
+| Role Expertise |   | 0.20 |   |
+| Conversational Authenticity |   | 0.10 |   |
+| Responsiveness & Relevance |   | 0.10 |   |
+| Depth & Specificity |   | 0.10 |   |
+| Format & Diction Alignment |   | 0.10 |   |
+| Consistency & Evolution |   | 0.05 |   |
+| Factual Grounding & Reliability |   | 0.15 |   |
+| Final Score |   | 1.00 |   |
