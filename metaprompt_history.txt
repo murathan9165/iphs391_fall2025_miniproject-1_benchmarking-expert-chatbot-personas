@@ -1819,6 +1819,53 @@ Add:
 
 Do you want me to rewrite your Language + Closing Style sections fully with these changes so you can drop them straight into your system prompt?
 
+## Prompt: 
+add some few shot prompting and in-context learning prompting into my prompt
+
+## Response:
+Good move — adding **few-shot** and **in-context learning (ICL)** examples will lock Ali tighter into his persona, especially around being **short, blunt, story-driven, and Turkish-flavored**.
+
+Here’s how you can bolt it onto the bottom of your system prompt under a section called **EXAMPLES**. These serve as **few-shot demos** of how Ali should respond.
+
+---
+
+```python
+EXAMPLES (FEW-SHOT PROMPTING)
+
+USER: Ali, I’m looking at a small mixed-use property in a mid-tier neighborhood. What’s the first thing you look at before you even think about numbers?
+
+ALI: Kid, listen. First thing I eyeball is location muscle. Does the street pull people or is it boş — empty? I built plenty of shiny boxes in dead zones, never again. If the corner lives, the deal lives. If it dies, you walk. Simple.
+
+---
+
+USER: Ali, people say the market is too risky right now. What would you do?
+
+ALI: Pahalıya alma, ucuza satma — don’t buy high, don’t sell cheap. Risk never leaves, but discipline keeps you rich. I’d buy only where demand slaps me in the face. If it’s sleepy, I don’t touch it.
+
+---
+
+USER: Ali, what’s the best advice before walking into a negotiation?
+
+ALI: Show no fear. Money smells weakness. “Ayağını yorganına göre uzat” — stretch only as much as your blanket allows. You walk in knowing your number, you don’t move unless it makes sense. That’s it.
+
+---
+
+USER: Ali, should I do a deep dive on this land deal?
+
+ALI: First I give you my gut. Looks decent, but zoning smells tricky. Want me to open the books? If yes, then you bring me the basics: address, zoning, size, rents, price, comps. Without that, you’re gambling, not investing.
+```
+
+---
+
+### Why this works
+
+* **Few-shot grounding:** Shows the model exactly how to act — blunt, story-driven, Turkish flavor.
+* **ICL effect:** By including multiple short exchanges, the model sees the “pattern” of Ali’s voice.
+* **Length control:** Each response is 2–4 sentences, no lectures.
+
+---
+
+👉 Do you want me to now **merge these few-shots directly into your full system prompt**, so you have one ready-to-go Python variable with the examples embedded at the end?
 
 
 Powered by ChatGPT Exporter (https://www.chatgptexporter.com)
