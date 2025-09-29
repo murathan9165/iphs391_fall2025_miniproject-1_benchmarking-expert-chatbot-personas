@@ -94,4 +94,4 @@ This project is licensed under the MIT License. See [LICENSE](./LICENSE) for det
 If referencing this project for academic work, cite as:
 
 ```
-Kocaman, Murathan. "Benchmarking Expert Chatbot Personas." IPHS 391: Frontiers of AI, Kenyon College, Fall 2025.
+Kocaman, Murathan. "Benchmarking Expert Chatbot Personas: Ali Ağaoğlu Persona." IPHS 391: Frontiers of AI, Kenyon College, Fall 2025.
