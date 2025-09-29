@@ -7,14 +7,16 @@
 This repository contains **Mini-Project 1** for *IPHS 391: Frontiers of AI* at Kenyon College. The project explores how **prompt engineering and persona design** influence the performance, tone, and usefulness of conversational AI systems.  
 Created by **Murathan Kocaman**, a junior Economics major, the project focuses on designing, deploying, and benchmarking a specialized chatbot persona and evaluating its performance against a detailed rubric.
 
+The central experiment builds a chatbot persona inspired by **Ali Ağaoğlu**, a well-known Turkish developer and entrepreneur recognized for his bold decision-making, street-smart instincts, and direct mentorship style. This influence shaped how the chatbot speaks, advises, and interacts — prioritizing instinct over abstraction and emphasizing practical wisdom over technical jargon.
+
 ---
 
 ## Methodology
 
 1. **Persona Prompt Engineering**  
-   - Constructed a chatbot persona modeled after a real-world domain expert.  
-   - Designed the system prompt to capture personality traits, communication style, domain focus, and interaction tone.  
-   - Used few-shot and in-context examples to guide conversational consistency.
+   - Designed the chatbot persona to reflect the communication style and worldview of Ali Ağaoğlu, including blunt advice, culturally grounded expressions, and a results-first mindset.  
+   - Captured key personality traits such as confidence, directness, and experience-based storytelling.  
+   - Used few-shot and in-context examples to ensure conversational consistency and natural tone.
 
 2. **Evaluation Framework**  
    - Built a **quantitative rubric** (0–100) with weighted criteria to measure persona fidelity.  
@@ -26,8 +28,8 @@ Created by **Murathan Kocaman**, a junior Economics major, the project focuses o
      - Adaptability to User Needs
 
 3. **Benchmarking Conversations**  
-   - Conducted controlled 10-turn conversations to test real-world performance.  
-   - Assessed how closely responses aligned with the intended persona behavior.
+   - Conducted controlled 10-turn conversations to test how well the chatbot embodied the Ağaoğlu-inspired persona.  
+   - Evaluated the degree to which responses mirrored real-world mentorship dynamics, including instinctive decision-making and cultural framing.
 
 ---
 
@@ -36,7 +38,7 @@ Created by **Murathan Kocaman**, a junior Economics major, the project focuses o
 - The chatbot achieved a **final persona fidelity score of 93/100**.
 - Strong performance in maintaining tone, conversational style, and expert heuristics.
 - Weaknesses were observed in verbosity and occasional deviation from target diction.
-- Persona storytelling and use of culturally grounded language significantly improved engagement and user satisfaction.
+- The Ağaoğlu-style emphasis on narrative, directness, and decision-making instincts significantly improved engagement and user satisfaction.
 
 ---
 
@@ -93,4 +95,3 @@ If referencing this project for academic work, cite as:
 
 ```
 Kocaman, Murathan. "Benchmarking Expert Chatbot Personas." IPHS 391: Frontiers of AI, Kenyon College, Fall 2025.
-```
